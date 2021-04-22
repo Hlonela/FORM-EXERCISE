@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+}
+
+.form {
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+  padding: 1% 50%;
+  margin: 1% 10%;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  padding: 1% 10%;
+  height: 100vh;
+}
+
+#nam {
+}
