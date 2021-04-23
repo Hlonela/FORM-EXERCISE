@@ -1,22 +1,83 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  background-color: #e0e0e0;
-}
-
-.form {
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
-  padding: 1% 50%;
-  margin: 1% 10%;
 }
 
 body {
+  font-family: sans-serif;
+  background-color: teal;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1% 10%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-#nam {
+#contact-form {
+  border-radius: 50px;
+  background: #008080;
+  box-shadow: 39px 39px 77px #006d6d, -39px -39px 77px #009393;
+  padding: 5% 10%;
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-heading {
+  text-transform: uppercase;
+  margin-bottom: 10 px;
+}
+.contact-info {
+  width: 100%;
+  margin: 10%;
+  font: sans-serif;
+}
+#name {
+  font: sans-serif;
+  width: 100%;
+}
+#surname {
+  font: sans-serif;
+  width: 100%;
+}
+#Email {
+  font: sans-serif;
+  width: 100%;
+}
+#Tel {
+  font: sans-serif;
+  width: 100%;
+}
+
+#button-submit {
+  border-radius: 50px;
+  background: #008080;
+  box-shadow: inset 39px 39px 77px #006d6d, inset -39px -39px 77px #009393;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+.MessageArea {
+  width: 300px;
+}
+#MessageArea {
+  outline: none;
+  border: 1px solid;
+}
+
+input,
+#MessageArea {
+  width: 100%;
+  border-radius: 50px;
+  background: #008080;
+  box-shadow: inset 39px 39px 77px #006d6d, inset -39px -39px 77px #009393;
+  border: none;
+  outline: none;
+  padding: 5% 10%;
+}
+.labels {
+  display: none;
 }
